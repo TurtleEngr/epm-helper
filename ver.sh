@@ -120,7 +120,7 @@ export envHeader=""
 export envFooter=""
 
 export epmFile="ver.epm"
-export epmHeader="%include epm.require"
+export epmHeader="%include $ProdOSDist.require"
 export epmFooter="%include epm.list"
 
 export makFile="ver.mak"
