@@ -16,7 +16,7 @@ export ProdName="epm-helper"
 export ProdAlias=""
 # One word [-a-z0-9]
 
-export ProdVer="1.6.1"
+export ProdVer="1.7.1"
 # [0-9]*.[0-9]*{.[0-9]*}
 # Requires 2 numbers, 3'rd number is optional
 # %version ProdVer

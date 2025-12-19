@@ -4,12 +4,12 @@
 
 ProdName=epm-helper
 ProdAlias=epm-helper
-ProdVer=1.6.1
+ProdVer=1.7.1
 ProdRC=
 ProdBuild=1
-ProdBuildTime=2025.12.19.18.41
+ProdBuildTime=2025.12.19.18.47
 ProdSvnVer=
-ProdWinVer=1.6.1
+ProdWinVer=1.7.1
 ProdDate=2025-12-19
 ProdSummary=epm-helper are programs work with the EPM tool.
 ProdDesc=epm-helper
@@ -29,7 +29,7 @@ ProdRelRoot=/rel
 ProdRelCategory=software/ThirdParty/epm-helper/deb13
 ProdRelDir=/rel/released/software/ThirdParty/epm-helper/deb13
 ProdDevDir=/rel/development/software/ThirdParty/epm-helper/deb13
-ProdTag=tag-1-6-1-1
+ProdTag=tag-1-7-1-1
 ProdOS=deb13
 ProdOSDist=deb
 ProdOSVer=13
