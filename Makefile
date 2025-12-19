@@ -90,7 +90,7 @@ dist-clean : clean
 	-rm ver.mak
 	-rm -rf pkg >/dev/null 2>&1
 
-test-package : epm.list $(ProdOSDist).require
+test-package : epm.list epm.require
 	-rm -rf pkg ver.epm >/dev/null 2>&1
 	mkdir pkg
 	export RELEASE=0; src/bin/mkver.pl -e epm
@@ -102,7 +102,7 @@ test-release : TBD
 clean-test-release :
 	# Remove all epm-helper packages from repo
 
-package : epm.list $(ProdOSDist).require
+package : epm.list epm.require
 	# Set ProdRC for Release Candidate packages
 	-rm -rf pkg ver.epm >/dev/null 2>&1
 	mkdir pkg
